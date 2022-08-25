@@ -194,7 +194,6 @@ if (errors) {
   });
 
 
-
  //Default response for any other request (Not found)
  app.use((req, res) => {
     res.status(404).end();
